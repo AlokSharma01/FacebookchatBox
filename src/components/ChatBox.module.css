@@ -1,0 +1,88 @@
+.mainBox{
+
+    margin: auto;
+    margin-top: 30px;
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+
+}
+.userNameBox{
+
+    display: flex;
+    border-bottom: 1px solid grey;
+    background-color: DodgerBlue;
+}
+.imageBox{
+
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-left: 20px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7e/Virat_Kohli.jpg");
+    background-size: cover;
+}
+
+
+.messageBox{
+    margin: auto;
+    text-align: center;
+    height: 480px;
+    overflow-y: auto;
+    /* background-image: url("https://thumbs.dreamstime.com/b/mobile-apps-pattern-white-background-50171276.jpg");
+    background-size: cover; */
+}
+
+.buttonBox{
+
+    border-top: 1px solid grey;
+   
+}
+
+.inputBox{
+
+    width: 60%;
+    height: 40px;
+    margin-left: -70px;
+    border-color: DodgerBlue;
+    border-radius: 10px;
+    outline: none;
+}
+.gifButton{
+
+    width: 50px;
+    height: 40px;
+    border: none;
+    outline-color: green;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.gifButton:hover{
+
+    background-color: grey;
+    color:white;
+}
+
+.sendButton{
+
+    width: 50px;
+    height: 40px;
+    border: none;
+    background-color: DodgerBlue;
+    color: white;
+    outline-color: green;
+    margin-left: 10px;
+    margin-right: -70px;
+    border-radius: 10px;
+}
+.sendButton:hover{
+
+    background-color: rgb(74, 113, 74);
+    color:white;
+}
+
+.text{
+
+    color: green;
+}
